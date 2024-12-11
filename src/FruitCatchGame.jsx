@@ -331,7 +331,7 @@ const FruitCatchGame = () => {
         <div className="absolute bg-red-500 text-white p-6 rounded-lg shadow-lg text-center">
           <h2 className="text-3xl font-bold mb-4">ゲームオーバー</h2>
           <p className="mb-4">最終スコア: {score}</p>
-          <button onclick={handleShare}>シェア！</button>
+          <button onClick={handleShare}>シェア！</button>
         </div>
       )}
       <div className="mt-4 flex space-x-4">
